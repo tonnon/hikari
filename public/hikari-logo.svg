@@ -1,0 +1,42 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red Circle Background -->
+  <circle cx="60" cy="60" r="50" fill="#E84F2A"/>
+  
+  <!-- White Center Circle -->
+  <circle cx="60" cy="60" r="35" fill="white"/>
+  
+  <!-- Sun rays -->
+  <g stroke="white" stroke-width="3" stroke-linecap="round">
+    <line x1="60" y1="15" x2="60" y2="25"/>
+    <line x1="75" y1="20" x2="73" y2="29"/>
+    <line x1="88" y1="32" x2="81" y2="39"/>
+    <line x1="95" y1="48" x2="86" y2="52"/>
+    <line x1="95" y1="72" x2="86" y2="68"/>
+    <line x1="88" y1="88" x2="81" y2="81"/>
+    <line x1="75" y1="100" x2="73" y2="91"/>
+    <line x1="45" y1="100" x2="47" y2="91"/>
+    <line x1="32" y1="88" x2="39" y2="81"/>
+    <line x1="25" y1="72" x2="34" y2="68"/>
+    <line x1="25" y1="48" x2="34" y2="52"/>
+    <line x1="32" y1="32" x2="39" y2="39"/>
+    <line x1="45" y1="20" x2="47" y2="29"/>
+  </g>
+  
+  <!-- Japanese Text (styled approximation) -->
+  <g fill="black" font-family="serif" font-weight="bold">
+    <!-- 店 character approximation -->
+    <path d="M35 35 Q38 32 42 35 L42 45 Q40 48 38 45 L38 40 L35 40 Z"/>
+    <path d="M32 48 L45 48 M35 50 L42 50 M35 52 L42 52"/>
+    
+    <!-- ほ character approximation -->
+    <path d="M48 35 Q52 32 55 40 Q58 45 52 48 Q48 45 48 40"/>
+    <path d="M50 42 Q54 40 58 42"/>
+    
+    <!-- う character approximation -->
+    <path d="M62 35 L75 35 M65 37 Q70 40 73 37 M65 42 Q68 45 70 42"/>
+    <path d="M67 47 Q70 50 73 47"/>
+  </g>
+  
+  <!-- Bottom red arc -->
+  <path d="M25 85 Q60 95 95 85" stroke="#E84F2A" stroke-width="4" fill="none"/>
+</svg>
